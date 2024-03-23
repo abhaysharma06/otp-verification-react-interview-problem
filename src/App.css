@@ -1,38 +1,38 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.App{
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: column; 
+  text-align: center;
+  gap: 10px;
+}
+
+.form{
+  display: flex;
+  gap: 10px;
+  width: 100%;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.inputNumber{
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  width: 15%;
 }
 
-.App-link {
-  color: #61dafb;
+.button{
+  padding: 5px;
+  width: 60px;
+  background-color: rgb(126, 126, 225);
+  border: none;
+  color: #FFFF;
+  border-radius: 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+
+.otpInput{
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+  font-size: 1.2em;
+  text-align: center;
 }
